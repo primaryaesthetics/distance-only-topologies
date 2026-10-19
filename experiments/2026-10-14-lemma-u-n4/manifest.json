@@ -1,0 +1,24 @@
+{
+  "slug": "lemma-u-n4",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/check_lemma_u.py",
+    "crates/unsorted-game/src/main.rs"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-14T18:41:00.081672+00:00",
+  "finished_utc": "2026-10-14T18:41:00.213951+00:00",
+  "git_sha": "317eda1f2b2cb6513eb45d27f3c26fdf17ee2674",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "55f9755bd189ad9650cd0a714fdf21ee0ea5daaa3c17ada4a51703c1e73c6312",
+  "code_sha256": {
+    "scripts/check_lemma_u.py": "bfcfc9ed61cdfd242d10bedeefecdbfbfe2ef5bfac9004e041d9bc0d078cc6f5"
+  },
+  "code_digest": "c58178f5ab47effbb70891c6e64c2270e10f9f5bd936b8ad1a158fd47c15c586",
+  "code_crlf": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "fed-cycle-chain",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/fed_cycle_check.py",
+    "chain",
+    "3",
+    "4",
+    "5",
+    "6",
+    "--plot=experiments/2026-10-17-fed-cycle-chain/chain.png"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-17T11:16:20.233132+00:00",
+  "finished_utc": "2026-10-17T11:16:30.800121+00:00",
+  "git_sha": "cac33f67994491243e166d6a51b8e70c3f65e233",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "d37a8516c5b16bf6685e90898b88b4996d167c2cd02762052db544f2186e5550",
+  "code_sha256": {
+    "theory/game/fed_cycle_check.py": "59fa69c057cb72d18cb92a3b50ada2211ee0f654549f410b0a5b2289c02f6fd9"
+  },
+  "code_digest": "9c71a28bfcf60cb897ed2a667cfffe363bfd44320e90ae40b65b1c31dca8cf16",
+  "code_crlf": []
+}

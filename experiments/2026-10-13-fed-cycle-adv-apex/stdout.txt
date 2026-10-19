@@ -1,0 +1,14 @@
+# --k=2,3,4 --adversary=apex
+# k=2 budget 2 loses  nodes 29 tt 3 lps 20 (0.0s)
+# k=2 budget 3 wins  nodes 52 tt 7 lps 52 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  nodes 52  lps 52  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 575 tt 22 lps 514 (0.0s)
+# k=3 budget 5 loses  nodes 21088 tt 790 lps 10797 (0.1s)
+# k=3 budget 6 wins  nodes 23369 tt 887 lps 12101 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  nodes 23369  lps 12101  tt clears 0  0.2s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 5 loses  nodes 987 tt 19 lps 430 (0.0s)
+# k=4 budget 6 loses  nodes 110038 tt 1976 lps 38865 (0.7s)
+# k=4 budget 7 loses  nodes 4433382 tt 74764 lps 1239516 (32.3s)
+# k=4 budget 8 wins  nodes 10335859 tt 177437 lps 2882137 (49.0s)
+# k=4 value 8  cap 30  forced loss 2  nodes 10335859  lps 2882137  tt clears 0  82.0s

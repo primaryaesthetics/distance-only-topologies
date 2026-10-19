@@ -1,0 +1,4 @@
+# 0>1,0>2,0>3,0>4,0>5,1>2,2>3,3>4,4>5,5>1  mode path  cells 31  fwd 4  corner 9  held 11
+additions <= 4: comparisons 8  total 12  nodes 81486  57.5s
+additions <= 5: comparisons 8  total 13  nodes 3115034  1074.1s
+additions <= 6: comparisons 8  total 14  nodes 133827036  22999.3s

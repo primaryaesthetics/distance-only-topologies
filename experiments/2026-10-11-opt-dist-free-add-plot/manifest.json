@@ -1,0 +1,23 @@
+{
+  "slug": "opt-dist-free-add-plot",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/plot_free_add.py",
+    "experiments/2026-10-11-opt-dist-free-add-plot/free_add.png",
+    "experiments/2026-10-11-opt-dist-free-add-n4-m6/stdout.txt",
+    "experiments/2026-10-11-opt-dist-free-add-h2/stdout.txt",
+    "experiments/2026-10-11-opt-dist-free-add-fans/stdout.txt",
+    "experiments/2026-10-11-opt-dist-free-add-fed-cycles/stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-11T03:24:16.716570+00:00",
+  "finished_utc": "2026-10-11T03:24:20.766622+00:00",
+  "git_sha": "f600e88deb408dea33c67724747d825bde08effd",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "628f2f3391f821b3fa6dc0bc20e2de67573b7f69d58ef3a37ad74084a320f070"
+}

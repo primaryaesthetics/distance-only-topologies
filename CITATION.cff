@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, its recorded runs, or its results, please cite the paper and this repository as below."
+type: software
+title: "Exact Distance-Only Complexity of Small Topologies"
+authors:
+  - family-names: Khobotov
+    given-names: Nikolai
+    orcid: "https://orcid.org/0009-0005-3612-830X"
+    email: nicholaask@gmail.com
+version: 1.0.0
+url: "https://github.com/primaryaesthetics/distance-only-topologies"
+repository-code: "https://github.com/primaryaesthetics/distance-only-topologies"
+license: MIT
+keywords:
+  - shortest paths
+  - SSSP
+  - distance-only complexity
+  - comparison-addition model
+  - decision trees
+  - graph algorithms
+abstract: >-
+  Code, recorded runs and claim ledger for the paper "Exact Distance-Only Complexity of Small Topologies". The
+  repository holds an exact player of Cai's transcript-cone game for the
+  distance-only complexity OPT_DIST of small rooted directed topologies, an
+  exact player of the fed cycle's path-register game against restricted
+  adversaries, independent z3-based reference players, an evaluator of
+  uniform local-rule programs, and every recorded run the paper's numbers
+  come from.
+preferred-citation:
+  type: article
+  title: "Exact Distance-Only Complexity of Small Topologies"
+  authors:
+    - family-names: Khobotov
+      given-names: Nikolai
+      orcid: "https://orcid.org/0009-0005-3612-830X"
+  year: 2026
+references:
+  - type: article
+    title: "Beyond distance ordering: resource complexity and universal optimality of exact labeled directed shortest paths"
+    authors:
+      - family-names: Cai
+        given-names: Bin
+    year: 2026
+    url: "https://arxiv.org/abs/2609.04825"

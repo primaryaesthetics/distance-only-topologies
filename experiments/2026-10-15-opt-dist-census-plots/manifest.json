@@ -1,0 +1,26 @@
+{
+  "slug": "opt-dist-census-plots",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/census_opt_dist.py",
+    "plot",
+    "experiments/2026-10-10-opt-dist-plot-m9-closed/stdout.txt",
+    "experiments/2026-10-11-opt-dist-plot-n5-m7/stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-14T22:23:09.461294+00:00",
+  "finished_utc": "2026-10-14T22:23:09.574576+00:00",
+  "git_sha": "9503f87c51d61ee41b4f3c1bf0b418492fd274c3",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "663f47f95c08675ea4eae1c9884122c53606afcc504f73b13e001741096cf3ad",
+  "code_sha256": {
+    "scripts/census_opt_dist.py": "66e2f56ad78b77abc0ed5e9791649ebe1856e97887231e863e85ef021be363d0"
+  },
+  "code_digest": "c68bbad358f57033455bc1a79c67be78a505776137f718ec47d9f46e7c5e850b",
+  "code_crlf": []
+}

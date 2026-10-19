@@ -1,0 +1,5 @@
+j | n m | 4j-3 | four-rule five-rule six-rule seven-rule | flags
+2 | 4 6 | 5 | 5 5 5 5 | 
+3 | 5 9 | 9 | 10 10 9 9 | 
+4 | 6 12 | 13 | 16 16 13 13 | 
+5 | 7 15 | 17 | 23 23 17 17 | 

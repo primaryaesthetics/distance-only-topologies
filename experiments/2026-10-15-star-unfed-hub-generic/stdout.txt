@@ -1,0 +1,3 @@
+# 1 named rooted topologies
+# arcs | n m dag d_s fwd law | generic nodes lp seconds
+0>1,0>2,0>3,1>4,2>4,3>4,4>1,4>2,4>3 | 5 9 0 3 3 - | 9 211283279 209491355 7358.1

@@ -1,0 +1,14 @@
+# --k=2,3,4 --adversary=min-entry --symmetry --out-edge-bound
+# k=2 budget 2 loses  nodes 19 tt 2 lps 36 (0.0s)
+# k=2 budget 3 wins  nodes 32 tt 4 lps 56 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  nodes 32  lps 56  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 485 tt 18 lps 645 (0.0s)
+# k=3 budget 5 loses  nodes 14095 tt 500 lps 13759 (0.3s)
+# k=3 budget 6 wins  nodes 29785 tt 1088 lps 25307 (0.4s)
+# k=3 value 6  cap 30  forced loss 1  nodes 29785  lps 25307  tt clears 0  0.6s
+# k=4 budget 6 loses  nodes 13550 tt 254 lps 15077 (0.5s)
+# k=4 budget 7 loses  nodes 828055 tt 14664 lps 659097 (25.0s)
+# forced loss 2: compare b2 ? b4 after b1+c1+c2 > b2 ; b3+c1 > b4
+# k=4 budget 8 loses  nodes 29980342 tt 504502 lps 19457087 (855.4s)
+# k=4 budget 9 wins  nodes 30499279 tt 514111 lps 19647489 (13.7s)
+# k=4 value 9  cap 30  forced loss 2  nodes 30499279  lps 19647489  tt clears 0  894.6s

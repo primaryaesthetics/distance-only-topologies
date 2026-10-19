@@ -1,0 +1,29 @@
+{
+  "slug": "rule-programs-eight-rule-n5m8-charged",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/rule_programs.py",
+    "--eight-rule",
+    "--charge-decided",
+    "--jobs",
+    "3",
+    "--table",
+    "experiments/2026-10-15-n5m8-cyclic-chunk08//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk09//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk10//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk11//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk12//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk13//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk14//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk15//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk16//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk17//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk18//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk19//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk20//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk21//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk22//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk23//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk24//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk25//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk26//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk27//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk28//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk29//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk30//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk31//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk32//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk33//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk34//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk35//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk36//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk37//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk38//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk39//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk40//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk41//stdout.txt,experiments/2026-10-15-n5m8-cyclic-chunk42//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk00-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk01-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk02-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk03-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk04-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk05-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk06-rerun//stdout.txt,experiments/2026-10-16-n5m8-cyclic-chunk07-rerun//stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-17T03:03:16.269122+00:00",
+  "finished_utc": "2026-10-17T03:03:56.673433+00:00",
+  "git_sha": "77b31f87e73a96b10c2a85aaba3a78b58e8dd16d",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "8298e78d935eee9492babf0be4cb3de2391aa5547982339f1d94686fbded9ab5",
+  "code_sha256": {
+    "theory/game/rule_programs.py": "9677fe8d67c19a9fa1a29824e3cffb9d0a89424930dedf217ca33757eb73b2a2"
+  },
+  "code_digest": "823d6a6fdcb4965d554eb552936645c1962c06d2b0252c7570a5ea8f076fc0fa",
+  "code_crlf": []
+}

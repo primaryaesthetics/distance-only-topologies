@@ -1,0 +1,29 @@
+{
+  "slug": "partly-fed-cycles-plot",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/plot_partly_fed_cycles.py",
+    "experiments/2026-10-14-partly-fed-cycles-plot/partly-fed-cycles.png",
+    "experiments/2026-10-14-opt-dist-partly-fed-cycles/stdout.txt",
+    "experiments/2026-10-14-opt-dist-partly-fed-cycle-k6-f3-alternate/stdout.txt",
+    "experiments/2026-10-14-opt-dist-partly-fed-cycle-k8-f2/stdout.txt",
+    "experiments/2026-10-14-opt-dist-partly-fed-cycle-k7-f3-generic/stdout.txt",
+    "experiments/2026-10-10-opt-dist-c4/stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-14T18:51:44.445804+00:00",
+  "finished_utc": "2026-10-14T18:51:46.587084+00:00",
+  "git_sha": "778001267d5d56062d311b7c62da5eb4925ec3da",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "9f0420e35d08ad639e91d047bd419702dba1eb3e73184e1d18dcfee702da9a76",
+  "code_sha256": {
+    "scripts/plot_partly_fed_cycles.py": "a43d2b5c6e45779b6043b4c5f79d067e9bc6598ccace280230a04ee0dd9cae1c"
+  },
+  "code_digest": "a501371b921f382c4f204c1effcd84d5f9360492dbc3b56e6d497dc7a453623f",
+  "code_crlf": []
+}

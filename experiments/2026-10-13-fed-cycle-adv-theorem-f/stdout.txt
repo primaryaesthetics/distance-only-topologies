@@ -1,0 +1,13 @@
+# --k=2,3,4 --adversary=theorem-f
+# k=2 budget 2 loses  nodes 11 tt 3 lps 9 (0.0s)
+# k=2 budget 3 wins  nodes 23 tt 5 lps 27 (0.0s)
+# k=2 value 3  cap 30  forced loss 0  nodes 23  lps 27  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 307 tt 22 lps 77 (0.0s)
+# k=3 budget 5 loses  nodes 4362 tt 287 lps 379 (0.0s)
+# k=3 budget 6 wins  nodes 6351 tt 393 lps 1195 (0.0s)
+# k=3 value 6  cap 30  forced loss 0  nodes 6351  lps 1195  tt clears 0  0.0s
+# k=4 budget 6 loses  nodes 4575 tt 157 lps 700 (0.0s)
+# k=4 budget 7 loses  nodes 139636 tt 4402 lps 5624 (0.6s)
+# k=4 budget 8 loses  nodes 2409586 tt 69726 lps 54351 (10.0s)
+# k=4 budget 9 wins  nodes 3466495 tt 98372 lps 143954 (8.2s)
+# k=4 value 9  cap 30  forced loss 0  nodes 3466495  lps 143954  tt clears 0  18.8s

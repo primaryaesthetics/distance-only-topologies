@@ -1,0 +1,23 @@
+{
+  "slug": "opt-dist-n5-m7-path",
+  "command": [
+    "./target/release/unsorted-game",
+    "enumerate",
+    "5",
+    "7",
+    "600",
+    "--modes=path",
+    "--m=7"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-10T20:11:50.827228+00:00",
+  "finished_utc": "2026-10-10T20:56:40.489092+00:00",
+  "git_sha": "37656ed3fec7cf42ee3ff0c5b4df59abd245cd8f",
+  "git_dirty": false,
+  "host": "Mac",
+  "os": "Darwin 25.6.0",
+  "cpu": "Apple M4 Pro",
+  "python": "3.9.6",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "corpus_sha256": "3382077fad8c6f32a4a5836155985eba2afd220b2d25eaa3db0575c1a614981e"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "rule-programs-scale-live-heap",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "ref/rule_programs/scale_probe.py",
+    "--ny",
+    "data/graphs/USA-road-d.NY.gr",
+    "--plot",
+    "experiments/2026-10-15-rule-programs-scale-live-heap/sel-per-vertex.png"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-14T22:01:46.225314+00:00",
+  "finished_utc": "2026-10-14T22:10:22.817280+00:00",
+  "git_sha": "7f344011bed89281eecc35daf4861cec8501a24a",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "a7ed53c8d0b24a4671db0326c9e221b37d0b5fc5c42c232f22470063efa718fb",
+  "code_sha256": {
+    "ref/rule_programs/scale_probe.py": "c3a927ce0e41fbca3a36ce26e2a5d8ef11ffc8e33e1a69a5a8f8d1d9d7a2ebc6"
+  },
+  "code_digest": "f3f20c7ccaff3d0957ff863e96015487bed3aabc4ce56fb3fa79b365d7cf068c",
+  "code_crlf": []
+}

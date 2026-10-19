@@ -1,0 +1,56 @@
+# --k=4 --adversary=thick --print
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 5 loses  nodes 987 tt 19 lps 2509 (0.0s)
+# k=4 budget 6 loses  nodes 144689 tt 2602 lps 287435 (1.0s)
+# k=4 budget 7 loses  nodes 6125077 tt 103978 lps 10714909 (46.2s)
+# k=4 budget 8 wins  nodes 13914068 tt 239433 lps 23859885 (78.9s)
+compare b1 ? b3
+-> b1 > b3
+  compare b1 ? b2
+  -> b1 > b2
+    add b2 + c2 = b2+c2
+      compare b3 ? b2+c2
+      -> b3 > b2+c2
+        add b2+c2 + c3 = b2+c2+c3
+          compare b4 ? b2+c2+c3
+          -> b4 > b2+c2+c3
+            add b2+c2+c3 + c4 = b2+c2+c3+c4
+              compare b1 ? b2+c2+c3+c4
+              -> b1 > b2+c2+c3+c4
+                ready: entry 2 (budget left 0)
+  -> b2 > b1
+    add b3 + c3 = b3+c3
+      compare b4 ? b3+c3
+      -> b4 > b3+c3
+        add b3+c3 + c4 = b3+c3+c4
+          compare b1 ? b3+c3+c4
+          -> b1 > b3+c3+c4
+            add c1 + b3+c3+c4 = b3+c1+c3+c4
+              compare b2 ? b3+c1+c3+c4
+              -> b2 > b3+c1+c3+c4
+                ready: entry 3 (budget left 0)
+-> b3 > b1
+  compare b1 ? b4
+  -> b1 > b4
+    add b4 + c4 = b4+c4
+      compare b1 ? b4+c4
+      -> b1 > b4+c4
+        add c1 + b4+c4 = b4+c1+c4
+          compare b2 ? b4+c1+c4
+          -> b2 > b4+c1+c4
+            add c2 + b4+c1+c4 = b4+c1+c2+c4
+              compare b3 ? b4+c1+c2+c4
+              -> b3 > b4+c1+c2+c4
+                ready: entry 4 (budget left 0)
+  -> b4 > b1
+    add b1 + c1 = b1+c1
+      compare b2 ? b1+c1
+      -> b2 > b1+c1
+        add b1+c1 + c2 = b1+c1+c2
+          compare b3 ? b1+c1+c2
+          -> b3 > b1+c1+c2
+            add b1+c1+c2 + c3 = b1+c1+c2+c3
+              compare b4 ? b1+c1+c2+c3
+              -> b4 > b1+c1+c2+c3
+                ready: entry 1 (budget left 0)
+# k=4 value 8  cap 30  forced loss 2  nodes 14190440  lps 24215343  tt clears 0  127.9s

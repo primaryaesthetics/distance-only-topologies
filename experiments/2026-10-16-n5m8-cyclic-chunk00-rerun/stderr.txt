@@ -1,0 +1,1 @@
+progress 600s  nodes 25731072  lp 34322198  cones built 26462279  cache (1349084, 4688145, 0, 410, 44)

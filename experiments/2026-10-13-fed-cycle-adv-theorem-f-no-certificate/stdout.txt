@@ -1,0 +1,7 @@
+# --k=2,3,4 --adversary=theorem-f --mutate=no-certificate
+# k=2 budget 2 wins  nodes 9 tt 2 lps 12 (0.0s)
+# k=2 value 2  cap 30  forced loss 0  nodes 9  lps 12  tt clears 0  0.0s
+# k=3 budget 4 wins  nodes 46 tt 4 lps 37 (0.0s)
+# k=3 value 4  cap 30  forced loss 0  nodes 46  lps 37  tt clears 0  0.0s
+# k=4 budget 6 wins  nodes 140 tt 6 lps 80 (0.0s)
+# k=4 value 6  cap 30  forced loss 0  nodes 140  lps 80  tt clears 0  0.0s

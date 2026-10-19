@@ -1,0 +1,2 @@
+# 0>1,0>2,0>3,0>4,1>2,2>3,3>4,4>1  mode path  cells 15  fwd 3  corner 7  held 47  (every sub-path form held)
+additions <= 0: comparisons 5  total 5  nodes 49577  90.8s

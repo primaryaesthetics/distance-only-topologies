@@ -1,0 +1,12 @@
+# --k=2,3,4 --adversary=min-entry --ties=fixed --out-edge-bound
+# k=2 budget 2 loses  nodes 27 tt 3 lps 48 (0.0s)
+# k=2 budget 3 wins  nodes 39 tt 5 lps 72 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  nodes 39  lps 72  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 604 tt 22 lps 598 (0.0s)
+# k=3 budget 5 loses  nodes 18880 tt 645 lps 14176 (0.2s)
+# k=3 budget 6 wins  nodes 19872 tt 686 lps 15122 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  nodes 19872  lps 15122  tt clears 0  0.2s
+# k=4 budget 6 loses  nodes 14779 tt 270 lps 12151 (0.2s)
+# k=4 budget 7 loses  nodes 905072 tt 15366 lps 545695 (14.2s)
+# k=4 budget 8 wins  nodes 4581188 tt 75248 lps 2165760 (67.1s)
+# k=4 value 8  cap 30  forced loss 1  nodes 4581188  lps 2165760  tt clears 0  81.5s

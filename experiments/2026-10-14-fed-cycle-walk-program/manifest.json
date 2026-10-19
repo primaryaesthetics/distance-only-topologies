@@ -1,0 +1,26 @@
+{
+  "slug": "fed-cycle-walk-program",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/check_walk_program.py",
+    "8",
+    "200",
+    "1"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-14T18:44:20.695264+00:00",
+  "finished_utc": "2026-10-14T18:44:24.541359+00:00",
+  "git_sha": "6e6fc3ad82102550addb09fbd7271970f6b6dde7",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "413e997a99f8dd64cc61dcaf235cc2df9bb511e6dd1a3fb55139b156749182e0",
+  "code_sha256": {
+    "scripts/check_walk_program.py": "c65ec48e6ed33711c862a85ead9581bab6f7046844d565bb0f2b28f418845ee6"
+  },
+  "code_digest": "01f94ac0dace4f0ce5597af7b6b8c60a877e64187029d17b8fd4ab2a901326b5",
+  "code_crlf": []
+}

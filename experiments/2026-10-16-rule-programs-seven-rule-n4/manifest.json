@@ -1,0 +1,23 @@
+{
+  "slug": "rule-programs-seven-rule-n4",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/rule_programs.py"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-16T16:56:35.591308+00:00",
+  "finished_utc": "2026-10-16T16:56:53.187831+00:00",
+  "git_sha": "b127016e7066ff6d4bae1820a9cafc4b2d0071a9",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "a5b45f57e1f0d795cdf9fcdd8cc2e7c4f85daf560e4d1bea7a37e7dae51e67e5",
+  "code_sha256": {
+    "theory/game/rule_programs.py": "10647db496677e213b448fb5bde8a9fcec8d521b0ccd4325f3fdcc00362053d5"
+  },
+  "code_digest": "919ddb52c734ec07db34c0f51528a8eff3f1cf3830710cc5c240125b7ccec3ad",
+  "code_crlf": []
+}

@@ -1,0 +1,16 @@
+# --k=2,3,4 --adversary=points --worlds=near --out-edge-bound
+# k=2: 2 points
+# k=2 budget 2 loses  nodes 9 tt 1 lps 6 (0.0s)
+# k=2 budget 3 wins  nodes 32 tt 5 lps 34 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  violations 0  nodes 32  lps 34  tt clears 0  0.0s
+# k=3: 6 points
+# k=3 budget 4 loses  nodes 206 tt 8 lps 127 (0.0s)
+# k=3 budget 5 loses  nodes 10427 tt 411 lps 5298 (0.0s)
+# k=3 budget 6 wins  nodes 12708 tt 508 lps 6475 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  violations 0  nodes 12708  lps 6475  tt clears 0  0.1s
+# k=4: 24 points
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 9685 tt 186 lps 4597 (0.1s)
+# k=4 budget 7 loses  nodes 1058633 tt 19263 lps 353463 (8.0s)
+# k=4 budget 8 wins  nodes 4768318 tt 85524 lps 1334606 (31.4s)
+# k=4 value 8  cap 30  forced loss 2  violations 0  nodes 4768318  lps 1334606  tt clears 0  39.5s

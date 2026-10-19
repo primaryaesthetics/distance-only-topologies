@@ -1,0 +1,5 @@
+# --k=4 --adversary=lex --lex-kill=free
+# k=4 budget 6 loses  nodes 31883 tt 606 lps 14823 (0.1s)
+# k=4 budget 7 loses  nodes 2016855 tt 36278 lps 668018 (8.7s)
+# k=4 budget 8 wins  nodes 7523049 tt 135912 lps 1903659 (27.7s)
+# k=4 value 8  cap 30  forced loss 0  nodes 7523049  lps 1903659  tt clears 0  36.6s

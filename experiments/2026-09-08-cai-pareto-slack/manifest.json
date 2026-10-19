@@ -1,0 +1,19 @@
+{
+  "slug": "cai-pareto-slack",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/plot_cai_pareto.py",
+    "experiments/2026-09-08-cai-pareto-slack/pareto.png"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-09-08T10:50:34.577010+00:00",
+  "finished_utc": "2026-09-08T10:50:37.194156+00:00",
+  "git_sha": "f22fc82c7f6184156391cac43d2ec1ce952d14f6",
+  "git_dirty": true,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "b9319eb544cefe49285975c4447581ca17ee0760bfeb9efbced1eb79d83fffcc"
+}

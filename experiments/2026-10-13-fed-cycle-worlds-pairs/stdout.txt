@@ -1,0 +1,193 @@
+# --k=3,4 --adversary=points --worlds=pairs --out-edge-bound
+# k=3 budget 4 loses  nodes 206 tt 8 lps 126 (0.0s)
+# k=3 budget 5 loses  nodes 10486 tt 413 lps 5323 (0.0s)
+# k=3 budget 6 wins  nodes 12803 tt 511 lps 6547 (0.0s)
+# k=3 near:1,2 far:1,2 value 6  nodes 12803  0.1s
+# k=3 budget 4 loses  nodes 94 tt 4 lps 53 (0.0s)
+# k=3 budget 5 loses  nodes 5420 tt 222 lps 2912 (0.0s)
+# k=3 budget 6 wins  nodes 12357 tt 524 lps 6410 (0.0s)
+# k=3 near:1,2 far:2,1 value 6  nodes 12357  0.1s
+# k=3 budget 4 loses  nodes 206 tt 8 lps 126 (0.0s)
+# k=3 budget 5 loses  nodes 10486 tt 413 lps 5303 (0.1s)
+# k=3 budget 6 wins  nodes 12803 tt 511 lps 6526 (0.0s)
+# k=3 near:2,1 far:1,2 value 6  nodes 12803  0.1s
+# k=3 budget 4 loses  nodes 94 tt 4 lps 53 (0.0s)
+# k=3 budget 5 loses  nodes 5577 tt 244 lps 3358 (0.0s)
+# k=3 budget 6 wins  nodes 12642 tt 554 lps 7070 (0.1s)
+# k=3 near:2,1 far:2,1 value 6  nodes 12642  0.1s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 380276 (7.0s)
+# k=4 budget 8 wins  nodes 4857643 tt 88540 lps 1422115 (28.5s)
+# k=4 near:1,2,3 far:1,2,3 value 8  nodes 4857643  35.6s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 482099 tt 9237 lps 179268 (3.2s)
+# k=4 budget 8 wins  nodes 4498802 tt 83710 lps 1294875 (29.8s)
+# k=4 near:1,2,3 far:1,3,2 value 8  nodes 4498802  33.0s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 418114 tt 8106 lps 161463 (2.7s)
+# k=4 budget 8 wins  nodes 3474251 tt 64194 lps 988772 (21.6s)
+# k=4 near:1,2,3 far:2,1,3 value 8  nodes 3474251  24.4s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# k=4 budget 7 loses  nodes 310046 tt 5990 lps 120876 (2.1s)
+# forced loss 2: compare b2 ? b4 after b1+c2 > b2
+# k=4 budget 8 loses  nodes 21516849 tt 392669 lps 7017814 (161.1s)
+# k=4 budget 9 wins  nodes 22010949 tt 401773 lps 7134240 (4.5s)
+# k=4 near:1,2,3 far:2,3,1 value 9  nodes 22010949  167.7s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# k=4 budget 7 loses  nodes 297580 tt 5824 lps 118560 (1.8s)
+# k=4 budget 8 wins  nodes 3101721 tt 58954 lps 947123 (21.0s)
+# k=4 near:1,2,3 far:3,1,2 value 8  nodes 3101721  22.9s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 263408 tt 5104 lps 104708 (1.6s)
+# k=4 budget 8 wins  nodes 3439847 tt 64652 lps 1018673 (23.4s)
+# k=4 near:1,2,3 far:3,2,1 value 8  nodes 3439847  25.0s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 380094 (6.6s)
+# k=4 budget 8 wins  nodes 4861793 tt 88627 lps 1422580 (26.8s)
+# k=4 near:1,3,2 far:1,2,3 value 8  nodes 4861793  33.5s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 500680 tt 9599 lps 188942 (3.2s)
+# k=4 budget 8 wins  nodes 4698667 tt 87175 lps 1337662 (31.1s)
+# k=4 near:1,3,2 far:1,3,2 value 8  nodes 4698667  34.4s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 418295 tt 8109 lps 161362 (2.6s)
+# k=4 budget 8 wins  nodes 3483578 tt 64344 lps 990151 (21.2s)
+# k=4 near:1,3,2 far:2,1,3 value 8  nodes 3483578  23.8s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# k=4 budget 7 loses  nodes 310227 tt 5993 lps 120785 (2.0s)
+# forced loss 2: compare b2 ? b4 after b1+c2 > b2
+# k=4 budget 8 loses  nodes 21830003 tt 397934 lps 7120189 (151.7s)
+# k=4 budget 9 wins  nodes 22324111 tt 407038 lps 7236592 (4.4s)
+# k=4 near:1,3,2 far:2,3,1 value 9  nodes 22324111  158.1s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# forced loss 2: compare b2 ? b1+c1 after b1 > c1
+# k=4 budget 7 loses  nodes 316774 tt 6197 lps 128061 (2.0s)
+# k=4 budget 8 wins  nodes 3304806 tt 62488 lps 990478 (20.6s)
+# k=4 near:1,3,2 far:3,1,2 value 8  nodes 3304806  22.6s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 286649 tt 5563 lps 117513 (1.8s)
+# k=4 budget 8 wins  nodes 3645810 tt 68232 lps 1064896 (23.2s)
+# k=4 near:1,3,2 far:3,2,1 value 8  nodes 3645810  25.0s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 379801 (6.3s)
+# k=4 budget 8 wins  nodes 4863647 tt 88662 lps 1423205 (26.7s)
+# k=4 near:2,1,3 far:1,2,3 value 8  nodes 4863647  33.1s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 488982 tt 9370 lps 180980 (2.9s)
+# k=4 budget 8 wins  nodes 4713705 tt 87790 lps 1358224 (29.9s)
+# k=4 near:2,1,3 far:1,3,2 value 8  nodes 4713705  32.8s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 478146 tt 9242 lps 186140 (3.0s)
+# k=4 budget 8 wins  nodes 3752319 tt 69342 lps 1078535 (22.1s)
+# k=4 near:2,1,3 far:2,1,3 value 8  nodes 3752319  25.1s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# forced loss 2: compare b2 ? b1+c1 after b1 > c1
+# k=4 budget 7 loses  nodes 367279 tt 7075 lps 143703 (2.2s)
+# k=4 budget 8 loses  nodes 24323248 tt 442366 lps 7842629 (168.6s)
+# k=4 budget 9 wins  nodes 24817352 tt 451468 lps 7959080 (4.3s)
+# k=4 near:2,1,3 far:2,3,1 value 9  nodes 24817352  175.1s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# k=4 budget 7 loses  nodes 345454 tt 6726 lps 136142 (2.1s)
+# k=4 budget 8 wins  nodes 3410243 tt 64834 lps 1046771 (22.0s)
+# k=4 near:2,1,3 far:3,1,2 value 8  nodes 3410243  24.1s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 327681 tt 6354 lps 132512 (2.0s)
+# k=4 budget 8 wins  nodes 3772137 tt 70905 lps 1129465 (24.6s)
+# k=4 near:2,1,3 far:3,2,1 value 8  nodes 3772137  26.6s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 379801 (6.3s)
+# k=4 budget 8 wins  nodes 4864156 tt 88673 lps 1423511 (26.0s)
+# k=4 near:2,3,1 far:1,2,3 value 8  nodes 4864156  32.4s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 488982 tt 9370 lps 180980 (3.0s)
+# k=4 budget 8 wins  nodes 4724488 tt 88009 lps 1363900 (30.8s)
+# k=4 near:2,3,1 far:1,3,2 value 8  nodes 4724488  33.7s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 478146 tt 9242 lps 186140 (3.1s)
+# k=4 budget 8 wins  nodes 3774734 tt 69769 lps 1088352 (23.0s)
+# k=4 near:2,3,1 far:2,1,3 value 8  nodes 3774734  26.1s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# forced loss 2: compare b2 ? b1+c1 after b1 > c1
+# k=4 budget 7 loses  nodes 367279 tt 7075 lps 143703 (2.3s)
+# k=4 budget 8 loses  nodes 24576084 tt 447306 lps 7959796 (166.8s)
+# k=4 budget 9 wins  nodes 25070188 tt 456408 lps 8076239 (4.0s)
+# k=4 near:2,3,1 far:2,3,1 value 9  nodes 25070188  173.2s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# k=4 budget 7 loses  nodes 345454 tt 6726 lps 136142 (1.8s)
+# k=4 budget 8 wins  nodes 3436217 tt 65355 lps 1059974 (19.8s)
+# k=4 near:2,3,1 far:3,1,2 value 8  nodes 3436217  21.7s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 327681 tt 6354 lps 132512 (1.8s)
+# k=4 budget 8 wins  nodes 3798258 tt 71420 lps 1142472 (22.1s)
+# k=4 near:2,3,1 far:3,2,1 value 8  nodes 3798258  23.9s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 380094 (5.7s)
+# k=4 budget 8 wins  nodes 4862366 tt 88640 lps 1423040 (23.7s)
+# k=4 near:3,1,2 far:1,2,3 value 8  nodes 4862366  29.5s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 500680 tt 9599 lps 188942 (2.7s)
+# k=4 budget 8 wins  nodes 4710371 tt 87423 lps 1344979 (26.6s)
+# k=4 near:3,1,2 far:1,3,2 value 8  nodes 4710371  29.3s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 418295 tt 8109 lps 161362 (2.3s)
+# k=4 budget 8 wins  nodes 3507733 tt 64825 lps 1003217 (18.5s)
+# k=4 near:3,1,2 far:2,1,3 value 8  nodes 3507733  20.8s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# k=4 budget 7 loses  nodes 310227 tt 5993 lps 120785 (1.7s)
+# forced loss 2: compare b2 ? b4 after b1+c2 > b2
+# k=4 budget 8 loses  nodes 22096338 tt 403448 lps 7274427 (139.6s)
+# k=4 budget 9 wins  nodes 22590446 tt 412552 lps 7390822 (3.8s)
+# k=4 near:3,1,2 far:2,3,1 value 9  nodes 22590446  145.1s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# forced loss 2: compare b2 ? b1+c1 after b1 > c1
+# k=4 budget 7 loses  nodes 316774 tt 6197 lps 128061 (1.7s)
+# k=4 budget 8 wins  nodes 3332583 tt 63065 lps 1007067 (19.1s)
+# k=4 near:3,1,2 far:3,1,2 value 8  nodes 3332583  20.9s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 286649 tt 5563 lps 117513 (1.6s)
+# k=4 budget 8 wins  nodes 3673740 tt 68803 lps 1081277 (21.2s)
+# k=4 near:3,1,2 far:3,2,1 value 8  nodes 3673740  22.9s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 10324 tt 198 lps 5330 (0.1s)
+# k=4 budget 7 loses  nodes 1099714 tt 20104 lps 379674 (5.7s)
+# k=4 budget 8 wins  nodes 4868393 tt 88763 lps 1424670 (23.7s)
+# k=4 near:3,2,1 far:1,2,3 value 8  nodes 4868393  29.5s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 3044 tt 64 lps 1552 (0.0s)
+# k=4 budget 7 loses  nodes 507714 tt 9735 lps 190806 (2.7s)
+# k=4 budget 8 wins  nodes 4924498 tt 91475 lps 1406695 (27.8s)
+# k=4 near:3,2,1 far:1,3,2 value 8  nodes 4924498  30.5s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 6 loses  nodes 2669 tt 57 lps 1402 (0.0s)
+# k=4 budget 7 loses  nodes 478347 tt 9247 lps 186507 (2.6s)
+# k=4 budget 8 wins  nodes 3762885 tt 69570 lps 1085077 (19.7s)
+# k=4 near:3,2,1 far:2,1,3 value 8  nodes 3762885  22.4s
+# k=4 budget 6 loses  nodes 2151 tt 45 lps 1108 (0.0s)
+# k=4 budget 7 loses  nodes 370604 tt 7147 lps 146624 (2.0s)
+# forced loss 2: compare b2 ? b4 after b1+c2 > b2
+# k=4 budget 8 loses  nodes 24599328 tt 448479 lps 8028220 (157.2s)
+# k=4 budget 9 wins  nodes 25093440 tt 457581 lps 8144637 (3.8s)
+# k=4 near:3,2,1 far:2,3,1 value 9  nodes 25093440  163.1s
+# k=4 budget 6 loses  nodes 2025 tt 43 lps 1067 (0.0s)
+# k=4 budget 7 loses  nodes 375298 tt 7297 lps 149337 (2.1s)
+# k=4 budget 8 wins  nodes 3654604 tt 69165 lps 1108941 (20.7s)
+# k=4 near:3,2,1 far:3,1,2 value 8  nodes 3654604  22.8s
+# k=4 budget 6 loses  nodes 1289 tt 27 lps 661 (0.0s)
+# k=4 budget 7 loses  nodes 382758 tt 7458 lps 162813 (2.3s)
+# k=4 budget 8 wins  nodes 4098332 tt 76677 lps 1229230 (23.7s)
+# k=4 near:3,2,1 far:3,2,1 value 8  nodes 4098332  26.0s

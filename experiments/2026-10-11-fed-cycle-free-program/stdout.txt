@@ -1,0 +1,32 @@
+# part 1: program on random weights (exact rational arithmetic)
+# k | samples | wrong | worst comparisons | k-1+ceil(log2 k)
+3 | 20000 | 0 | 4 | 4
+4 | 20000 | 0 | 5 | 5
+5 | 20000 | 0 | 7 | 7
+6 | 20000 | 0 | 8 | 8
+7 | 20000 | 0 | 9 | 9
+8 | 20000 | 0 | 10 | 10
+9 | 20000 | 0 | 12 | 12
+10 | 20000 | 0 | 13 | 13
+# part 2: pairwise game, exact value under strict answers
+# k | L | queries | value | states | k-1+ceil(log2 k) | seconds
+2 | 1 | 2 | 2 | 4 | 2 | 0.0
+2 | 2 | 4 | 2 | 4 | 2 | 0.0
+3 | 1 | 6 | 4 | 12 | 4 | 0.0
+3 | 2 | 12 | 4 | 12 | 4 | 0.0
+4 | 1 | 12 | 5 | 31 | 5 | 0.0
+4 | 2 | 24 | 5 | 31 | 5 | 0.1
+5 | 1 | 20 | 7 | 182 | 7 | 0.6
+5 | 2 | 40 | 7 | 357 | 7 | 1.9
+6 | 1 | 30 | 8 | 2150 | 8 | 18.2
+6 | 2 | 60 | 8 | 9125 | 8 | 148.8
+7 | 1 | 42 | 9 | 36846 | 9 | 638.8
+# part 3: cells crossed by each wall a_i - a_j = tW, |t| <= 1 (minimum over walls)
+# k | walls | min crossings | 2^(k-2)-1
+3 | 9 | 1 | 1
+4 | 18 | 3 | 3
+5 | 30 | 7 | 7
+6 | 45 | 15 | 15
+7 | 63 | 31 | 31
+8 | 84 | 63 | 63
+9 | 108 | 127 | 127

@@ -1,0 +1,4 @@
+# --k=5 --adversary=single --symmetry --out-edge-bound --cap=9
+# k=5 budget 8 loses  nodes 4955 tt 69 lps 10505 (0.8s)
+# k=5 budget 9 loses  nodes 2606368 tt 31459 lps 2634770 (210.5s)
+# k=5 value none  cap 9  forced loss 1  nodes 2606368  lps 2634770  tt clears 0  211.3s

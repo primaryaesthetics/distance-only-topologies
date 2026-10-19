@@ -1,0 +1,59 @@
+{
+  "source": "9th DIMACS Implementation Challenge — Shortest Paths",
+  "homepage": "https://www.diag.uniroma1.it/challenge9/download.shtml",
+  "licence": "Public benchmark set, redistributed by the challenge organisers.",
+  "format": "DIMACS .gr — read by unsorted_core::io::read_dimacs",
+  "note": "Checksums are filled in on first fetch and are then enforced. The distance metric (-d) and the travel-time metric (-t) are different benchmarks and are never averaged together.",
+  "graphs": [
+    {
+      "name": "dimacs-ny",
+      "file": "USA-road-d.NY.gr",
+      "url": "https://www.diag.uniroma1.it/challenge9/data/USA-road-d/USA-road-d.NY.gr.gz",
+      "gzipped": true,
+      "sha256": "37f5b3eff82330850466956b6c036a8ab8551512bdc7509edca1d4c6cf943fa3",
+      "vertices": 264346,
+      "edges": 733846,
+      "metric": "distance"
+    },
+    {
+      "name": "dimacs-bay",
+      "file": "USA-road-d.BAY.gr",
+      "url": "https://www.diag.uniroma1.it/challenge9/data/USA-road-d/USA-road-d.BAY.gr.gz",
+      "gzipped": true,
+      "sha256": null,
+      "vertices": 321270,
+      "edges": 800172,
+      "metric": "distance"
+    },
+    {
+      "name": "dimacs-ctr",
+      "file": "USA-road-d.CTR.gr",
+      "url": "https://www.diag.uniroma1.it/challenge9/data/USA-road-d/USA-road-d.CTR.gr.gz",
+      "gzipped": true,
+      "sha256": null,
+      "vertices": 14081816,
+      "edges": 34292496,
+      "metric": "distance"
+    },
+    {
+      "name": "dimacs-usa",
+      "file": "USA-road-d.USA.gr",
+      "url": "https://www.diag.uniroma1.it/challenge9/data/USA-road-d/USA-road-d.USA.gr.gz",
+      "gzipped": true,
+      "sha256": null,
+      "vertices": 23947347,
+      "edges": 58333344,
+      "metric": "distance"
+    },
+    {
+      "name": "dimacs-ny-time",
+      "file": "USA-road-t.NY.gr",
+      "url": "https://www.diag.uniroma1.it/challenge9/data/USA-road-t/USA-road-t.NY.gr.gz",
+      "gzipped": true,
+      "sha256": "948377c7f0a974bdb0a9be76fd5b7ceff95bb78c2a011fa6661bde2f2f06f732",
+      "vertices": 264346,
+      "edges": 733846,
+      "metric": "travel time"
+    }
+  ]
+}

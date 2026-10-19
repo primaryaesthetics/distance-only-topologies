@@ -1,0 +1,1 @@
+# 0>1,0>2,0>3,1>2,2>3,3>1  refuted budget 5  cells 7  states 2889  leaves 2783  inner 106  answered 1622  implied 1096 (by lp 85)  points 5416  bytes 479541  nodes 3674  cones 2491  dropped 0  0.4s

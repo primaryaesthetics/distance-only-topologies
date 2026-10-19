@@ -1,0 +1,16 @@
+# --k=2,3,4,5 --adversary=lex
+# k=2 budget 2 loses  nodes 27 tt 3 lps 16 (0.0s)
+# k=2 budget 3 wins  nodes 50 tt 7 lps 44 (0.0s)
+# k=2 value 3  cap 30  forced loss 0  nodes 50  lps 44  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 604 tt 22 lps 179 (0.0s)
+# k=3 budget 5 loses  nodes 18334 tt 621 lps 4613 (0.0s)
+# k=3 budget 6 wins  nodes 19162 tt 663 lps 5104 (0.0s)
+# k=3 value 6  cap 30  forced loss 0  nodes 19162  lps 5104  tt clears 0  0.1s
+# k=4 budget 6 loses  nodes 8155 tt 150 lps 1638 (0.0s)
+# k=4 budget 7 loses  nodes 539771 tt 9193 lps 91306 (1.5s)
+# k=4 budget 8 wins  nodes 1962694 tt 34494 lps 336016 (6.6s)
+# k=4 value 8  cap 30  forced loss 0  nodes 1962694  lps 336016  tt clears 0  8.1s
+# k=5 budget 8 loses  nodes 99191 tt 1096 lps 14954 (0.3s)
+# k=5 budget 9 loses  nodes 11553011 tt 118949 lps 1491609 (35.9s)
+# k=5 budget 10 wins  nodes 45613343 tt 480525 lps 5949741 (159.9s)
+# k=5 value 10  cap 30  forced loss 0  nodes 45613343  lps 5949741  tt clears 0  196.1s

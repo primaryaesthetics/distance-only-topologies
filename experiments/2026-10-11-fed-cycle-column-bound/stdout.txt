@@ -1,0 +1,40 @@
+# part 1: cells and the one-window-end rule
+# k | points | comparisons checked | cell mismatches | rule mismatches | distinct cells | k(k-1)+1
+2 | 4 | 56 | 0 | 0 | 3 | 3
+3 | 9 | 378 | 0 | 0 | 7 | 7
+4 | 16 | 1344 | 0 | 0 | 13 | 13
+5 | 25 | 3500 | 0 | 0 | 21 | 21
+6 | 36 | 7560 | 0 | 0 | 31 | 31
+7 | 49 | 14406 | 0 | 0 | 43 | 43
+8 | 64 | 25088 | 0 | 0 | 57 | 57
+9 | 81 | 40824 | 0 | 0 | 73 | 73
+10 | 100 | 63000 | 0 | 0 | 91 | 91
+11 | 121 | 93170 | 0 | 0 | 111 | 111
+12 | 144 | 133056 | 0 | 0 | 133 | 133
+# part 2: identification game on the k^2 points, pairwise queries, t in {-1,0,1}
+# k | distinct splits | value | k-1+ceil(log2 k) | seconds
+2 | 4 | 2 | 2 | 0.0
+3 | 12 | 4 | 4 | 0.0
+4 | 24 | 5 | 5 | 0.0
+5 | 40 | 7 | 7 | 0.2
+6 | 60 | 8 | 8 | 6.7
+# part 3: column game by dynamic programming (columns of heights h_c, query (c, D): e = c and x0 > D)
+# k | value | k-1+ceil(log2 k) | states | seconds
+2 | 2 | 2 | 3 | 0.0
+3 | 4 | 4 | 10 | 0.0
+4 | 5 | 5 | 35 | 0.0
+5 | 7 | 7 | 126 | 0.0
+6 | 8 | 8 | 462 | 0.0
+7 | 9 | 9 | 1716 | 0.1
+8 | 10 | 10 | 6435 | 0.4
+9 | 12 | 12 | 24310 | 2.1
+10 | 13 | 13 | 92378 | 10.5
+# part 4: least V >= k with sum_{i=1..V} min(k-1, 2^(V-i)) >= k(k-1), against k-1+ceil(log2 k)
+k = 2..1024: exceptions []
+# part 5: identification game with the 2-vs-2 0/1 queries added
+# k | 2-vs-2 queries | constant | one side inside one window end | across window ends | value | ceil(log2(k(k-1)+1)) | seconds
+3 | 0 | 0 | 0 | 0 | 4 | 3 | 0.0
+4 | 18 | 10 | 0 | 8 | 4 | 4 | 0.0
+5 | 90 | 42 | 8 | 40 | 5 | 5 | 0.2
+6 | 270 | 120 | 30 | 120 | 5 | 5 | 0.7
+# plot written to experiments/2026-10-11-fed-cycle-column-bound/column_game.png

@@ -1,0 +1,8 @@
+target/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Graph data is fetched, never committed. data/manifests/ is the record.
+data/graphs/

@@ -1,0 +1,14 @@
+# certificate data/certificates/fed_cycle_c5_zero_one.txt: k = 5, 90 points
+points kept: 90  (dropped for a vanishing query: 0)
+distinct cells: 31 of 31
+queries up to sign: 29524
+vanishing (query, point) pairs: 0
+queries constant on the points: 23449
+distinct nontrivial bipartitions: 75
+exact build: 2.0 s
+depth 5: INFEASIBLE  (1 search nodes, 0.0 s)
+depth 6: INFEASIBLE  (1715 search nodes, 0.4 s)
+depth 7: feasible  (1760 search nodes, 0.0 s)
+tree found and checked: depth 7, 61 leaves, every leaf one cell
+least depth: 7
+total: 2.5 s

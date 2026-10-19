@@ -1,0 +1,13 @@
+# random sample: k = 4, 3000 points, seed 1
+points kept: 3000  (dropped for a vanishing query: 0)
+distinct cells: 15 of 15
+queries up to sign: 3280
+vanishing (query, point) pairs: 0
+queries constant on the points: 2551
+distinct nontrivial bipartitions: 27
+exact build: 11.4 s
+depth 4: INFEASIBLE  (1 search nodes, 0.0 s)
+depth 5: feasible  (39 search nodes, 0.0 s)
+tree found and checked: depth 5, 25 leaves, every leaf one cell
+least depth: 5
+total: 11.4 s

@@ -1,0 +1,7 @@
+# eight-rule against seven-rule, comparisons the cone decides charged; piece costs always charged
+name | arcs | V | seven-rule eight-rule | piece passes | flags
+P_3 | 0>1,0>2,0>3,1>2,2>1,2>3,3>2 | - | 7 7 | - | 
+P_4 | 0>1,0>2,0>3,0>4,1>2,2>1,2>3,3>2,3>4,4>3 | - | 12 12 | - | 
+P_5 | 0>1,0>2,0>3,0>4,0>5,1>2,2>1,2>3,3>2,3>4,4>3,4>5,5>4 | - | 18 16 | 1:1.2.3.4.5@1:16<18 | eight-rule-BELOW-SEVEN-RULE
+P_6 | 0>1,0>2,0>3,0>4,0>5,0>6,1>2,2>1,2>3,3>2,3>4,4>3,4>5,5>4,5>6,6>5 | - | 25 20 | 1:1.2.3.4.5.6@1:20<25 | eight-rule-BELOW-SEVEN-RULE
+# rows 4, with value 0, decided by bound 0, seven-rule above value 0, seven-rule below value 0, eight-rule above value 0, eight-rule below value 0, eight-rule below seven-rule 2, eight-rule above seven-rule 0, pass fires 2, seven-rule wrong 0, eight-rule wrong 0, eight-rule fallback 0

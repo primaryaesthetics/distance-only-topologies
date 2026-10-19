@@ -1,0 +1,13 @@
+# --k=2,3,4 --adversary=single --symmetry --out-edge-bound
+# k=2 budget 2 loses  nodes 9 tt 1 lps 21 (0.0s)
+# k=2 budget 3 wins  nodes 22 tt 3 lps 41 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  nodes 22  lps 41  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 71 tt 3 lps 155 (0.0s)
+# k=3 budget 5 loses  nodes 2901 tt 120 lps 4003 (0.1s)
+# k=3 budget 6 wins  nodes 8969 tt 384 lps 9919 (0.2s)
+# k=3 value 6  cap 30  forced loss 1  nodes 8969  lps 9919  tt clears 0  0.3s
+# k=4 budget 6 loses  nodes 575 tt 13 lps 1216 (0.0s)
+# k=4 budget 7 loses  nodes 72612 tt 1507 lps 89418 (3.5s)
+# k=4 budget 8 loses  nodes 5444854 tt 107038 lps 4546569 (233.8s)
+# k=4 budget 9 wins  nodes 5963791 tt 116647 lps 4734343 (13.9s)
+# k=4 value 9  cap 30  forced loss 1  nodes 5963791  lps 4734343  tt clears 0  251.3s

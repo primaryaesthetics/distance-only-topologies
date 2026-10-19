@@ -1,0 +1,5 @@
+# Reference players and the rule-program evaluator.
+z3-solver
+# Plotting scripts only.
+matplotlib
+numpy==2.5.2

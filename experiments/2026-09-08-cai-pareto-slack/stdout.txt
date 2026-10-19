@@ -1,0 +1,30 @@
+lambda(k, r) / k  --  entropy term of Cai Thm 6.1 per spoke, by addition slack r
+
+         k  log2 k |     r=k/1     r=k/2     r=k/4    r=k/16   r=k/256 |  r=k/log2k      r=1      r=0
+      1024      10 |     0.000     0.278     0.915     2.628     6.246 |      2.018    7.564    8.563
+     16384      14 |     0.000     0.279     0.918     2.646     6.541 |      2.467   11.558   12.558
+    262144      18 |     0.000     0.279     0.918     2.647     6.562 |      2.807   15.557   16.557
+   4194304      22 |     0.000     0.279     0.918     2.647     6.563 |      3.082   19.557   20.557
+  67108864      26 |     0.000     0.279     0.918     2.647     6.563 |      3.313   23.557   24.557
+
+r = k/d rows converge in k to a constant that depends on d alone;
+r = k/log2 k grows like log2 log2 k; r = 0 and r = 1 grow like log2 k.
+
+comparison lower bound per spoke, max{k, lambda} / k, at the addition counts of
+named programs on H_k (m = 3k + 1 arcs):
+  k =    16384  addition minimum, r = 0        12.558
+  k =    16384  r = 1                          11.558
+  k =    16384  r = k / log2 k                  2.467
+  k =    16384  r = k / 16                      2.646
+  k =    16384  r = k / 2                       1.000
+  k =    16384  r = k  (2k additions)           1.000
+  k =    16384  one relaxation per arc, 3k+1    1.000   (r > k: lambda is 0 by definition, bound is the linear k)
+  k =  4194304  addition minimum, r = 0        20.557
+  k =  4194304  r = 1                          19.557
+  k =  4194304  r = k / log2 k                  3.082
+  k =  4194304  r = k / 16                      2.647
+  k =  4194304  r = k / 2                       1.000
+  k =  4194304  r = k  (2k additions)           1.000
+  k =  4194304  one relaxation per arc, 3k+1    1.000   (r > k: lambda is 0 by definition, bound is the linear k)
+
+plot: experiments\2026-09-08-cai-pareto-slack\pareto.png

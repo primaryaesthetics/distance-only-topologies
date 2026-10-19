@@ -1,0 +1,25 @@
+{
+  "slug": "opt-dist-n4-m6-path-long",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/opt_dist.py",
+    "enumerate",
+    "4",
+    "6",
+    "2400",
+    "--modes=path",
+    "--m=6",
+    "--pick=1,2,3,6,7,8"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-09-09T16:39:02.188880+00:00",
+  "finished_utc": "2026-09-09T17:44:00.913996+00:00",
+  "git_sha": "218f0d6dc9b5b0c7db0e7fe06b2d0635edfee654",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "9bfd5c59dc13aea54b63fe438b6dc5fc765dfabe03277a8f0a00577d8a05224d"
+}

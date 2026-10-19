@@ -1,0 +1,25 @@
+{
+  "slug": "fed-cycle-worlds-pairs-plot",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/fed_cycle_worlds_plot.py",
+    "experiments/2026-10-13-fed-cycle-worlds-pairs/stdout.txt",
+    "experiments/2026-10-13-fed-cycle-worlds-pairs-plot/pairs.png"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-13T12:30:41.382715+00:00",
+  "finished_utc": "2026-10-13T12:30:43.352588+00:00",
+  "git_sha": "b9f4403c714e9f080c08e489e137d0f897327fab",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "feda495865a8904a223767e9b8586e449dd842c7f60ed8c0811d4c04e5b4ce19",
+  "code_sha256": {
+    "theory/game/fed_cycle_worlds_plot.py": "4da0fbff9b6f041b21df3a5986d8781b00ce0b3dbd850894872c34d685fbf989"
+  },
+  "code_digest": "0baba5ffbf2f919eb60376fc83c9d7c845c4eee2c8fbc92a565515a55d2d88e8",
+  "code_crlf": []
+}

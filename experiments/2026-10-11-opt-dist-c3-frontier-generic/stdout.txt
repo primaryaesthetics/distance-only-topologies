@@ -1,0 +1,6 @@
+# 0>1,0>2,0>3,1>2,2>3,3>1  mode generic  cells 7  fwd 2  corner 5  held 7
+additions <= 2: comparisons 4  total 6  nodes 180  0.0s
+additions <= 3: comparisons 4  total 7  nodes 653  0.1s
+additions <= 4: comparisons 4  total 8  nodes 6071  0.2s
+additions <= 5: comparisons 4  total 9  nodes 107880  1.6s
+additions <= 6: comparisons 4  total 10  nodes 2306169  27.6s

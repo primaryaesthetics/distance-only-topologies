@@ -1,0 +1,6 @@
+# 1 rows; every distinct relabelling of the non-source vertices when n <= 6 (1 rows), the distinct ones among 300 random relabellings by random.Random(9401).shuffle when n > 6 (0 rows); the arc set as recorded first; comparisons decided by the cone charged
+arcs | n m | V | numberings | seven-rule as-recorded [cost x count] ; nine-rule as-recorded [cost x count] | flags
+0>1,0>3,0>4,1>5,3>2,3>4,4>5,5>1,5>3 | 6 9 | - | 120 | seven-rule 10 [10x120] ; nine-rule 10 [10x120] | 
+# rows 1, with a known value 0
+# seven-rule: depends on the numbering on 0 rows; equals the value as recorded on 0 of 0 and on every numbering on 0; above the value on some numbering on 0, below on 0; wrong on 0, fallback on 0
+# nine-rule: depends on the numbering on 0 rows; equals the value as recorded on 0 of 0 and on every numbering on 0; above the value on some numbering on 0, below on 0; wrong on 0, fallback on 0

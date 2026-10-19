@@ -1,0 +1,83 @@
+# C_3: the chain branch, 5 operations (2k - 1 = 5)
+compare b1 ? b2
+-> b1 > b2
+  compare b2 ? b3
+  -> b2 > b3
+    add b3 + c3 = b3+c3
+      add b3+c3 + c1 = b3+c1+c3
+        compare b2 ? b3+c1+c3
+        -> b2 > b3+c1+c3
+          ready
+  min-entry: accepted: 1 leaves, all ready, depth at most 5, 33 z3 calls
+  full: accepted: 1 leaves, all ready, depth at most 5, 15 z3 calls
+  mutant (final comparison dropped): caught, rejected: leaf at depth 4 is not ready
+  mutant (final answer reversed): caught, rejected: answer b3+c1+c3 larger is not one min-entry may give at depth 4
+  mutant (final comparison against the walk one arc short): caught, rejected: leaf at depth 4 is not ready
+  mutant (first answer reversed): caught, rejected: leaf at depth 5 is not ready
+# C_4: the chain branch, 7 operations (2k - 1 = 7)
+compare b1 ? b2
+-> b1 > b2
+  compare b2 ? b3
+  -> b2 > b3
+    compare b3 ? b4
+    -> b3 > b4
+      add b4 + c4 = b4+c4
+        add b4+c4 + c1 = b4+c1+c4
+          add b4+c1+c4 + c2 = b4+c1+c2+c4
+            compare b3 ? b4+c1+c2+c4
+            -> b3 > b4+c1+c2+c4
+              ready
+  min-entry: accepted: 1 leaves, all ready, depth at most 7, 58 z3 calls
+  full: accepted: 1 leaves, all ready, depth at most 7, 26 z3 calls
+  mutant (final comparison dropped): caught, rejected: leaf at depth 6 is not ready
+  mutant (final answer reversed): caught, rejected: answer b4+c1+c2+c4 larger is not one min-entry may give at depth 6
+  mutant (final comparison against the walk one arc short): caught, rejected: leaf at depth 6 is not ready
+  mutant (first answer reversed): caught, rejected: leaf at depth 7 is not ready
+# C_5: the chain branch, 9 operations (2k - 1 = 9)
+compare b1 ? b2
+-> b1 > b2
+  compare b2 ? b3
+  -> b2 > b3
+    compare b3 ? b4
+    -> b3 > b4
+      compare b4 ? b5
+      -> b4 > b5
+        add b5 + c5 = b5+c5
+          add b5+c5 + c1 = b5+c1+c5
+            add b5+c1+c5 + c2 = b5+c1+c2+c5
+              add b5+c1+c2+c5 + c3 = b5+c1+c2+c3+c5
+                compare b4 ? b5+c1+c2+c3+c5
+                -> b4 > b5+c1+c2+c3+c5
+                  ready
+  min-entry: accepted: 1 leaves, all ready, depth at most 9, 90 z3 calls
+  full: accepted: 1 leaves, all ready, depth at most 9, 40 z3 calls
+  mutant (final comparison dropped): caught, rejected: leaf at depth 8 is not ready
+  mutant (final answer reversed): caught, rejected: answer b5+c1+c2+c3+c5 larger is not one min-entry may give at depth 8
+  mutant (final comparison against the walk one arc short): caught, rejected: leaf at depth 8 is not ready
+  mutant (first answer reversed): caught, rejected: leaf at depth 9 is not ready
+# C_6: the chain branch, 11 operations (2k - 1 = 11)
+compare b1 ? b2
+-> b1 > b2
+  compare b2 ? b3
+  -> b2 > b3
+    compare b3 ? b4
+    -> b3 > b4
+      compare b4 ? b5
+      -> b4 > b5
+        compare b5 ? b6
+        -> b5 > b6
+          add b6 + c6 = b6+c6
+            add b6+c6 + c1 = b6+c1+c6
+              add b6+c1+c6 + c2 = b6+c1+c2+c6
+                add b6+c1+c2+c6 + c3 = b6+c1+c2+c3+c6
+                  add b6+c1+c2+c3+c6 + c4 = b6+c1+c2+c3+c4+c6
+                    compare b5 ? b6+c1+c2+c3+c4+c6
+                    -> b5 > b6+c1+c2+c3+c4+c6
+                      ready
+  min-entry: accepted: 1 leaves, all ready, depth at most 11, 129 z3 calls
+  full: accepted: 1 leaves, all ready, depth at most 11, 57 z3 calls
+  mutant (final comparison dropped): caught, rejected: leaf at depth 10 is not ready
+  mutant (final answer reversed): caught, rejected: answer b6+c1+c2+c3+c4+c6 larger is not one min-entry may give at depth 10
+  mutant (final comparison against the walk one arc short): caught, rejected: leaf at depth 10 is not ready
+  mutant (first answer reversed): caught, rejected: leaf at depth 11 is not ready
+# failures 0

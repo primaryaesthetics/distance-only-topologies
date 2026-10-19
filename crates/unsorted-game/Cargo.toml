@@ -1,0 +1,11 @@
+[package]
+name = "unsorted-game"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Plays the transcript-cone game of Cai (arXiv:2609.04825) exactly on small rooted topologies, under the strict adversary."
+
+[dependencies]

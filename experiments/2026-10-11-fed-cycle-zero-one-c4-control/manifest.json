@@ -1,0 +1,28 @@
+{
+  "slug": "fed-cycle-zero-one-c4-control",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/fed_cycle_zero_one.py",
+    "sample",
+    "4",
+    "3000",
+    "1",
+    "6"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-11T11:12:50.627025+00:00",
+  "finished_utc": "2026-10-11T11:13:02.204140+00:00",
+  "git_sha": "b0b1987f2856706ba5db96062f4395e14883fac6",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "620f496c6082385f6ef598053cfb4a25f6c1920cfa5c55ed4098a2da0265a543",
+  "code_sha256": {
+    "scripts/fed_cycle_zero_one.py": "2df4bba746eeb4cc969303ece7c3ba783e757fcedd5ba008d99d23b707ec09d1"
+  },
+  "code_digest": "ccc17601f434ad468566b802823433ea7a61f1f7ac8198238f0f6ec58c4f1bdd",
+  "code_crlf": []
+}

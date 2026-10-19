@@ -1,0 +1,7 @@
+# 5 rooted topologies on 3 vertices with up to 4 arcs
+# arcs | n m dag d_s fwd law | path nodes z3 seconds | generic nodes z3 seconds | pathfull nodes z3 seconds | full nodes z3 seconds
+0>1,0>2 | 3 2 1 2 0 0 | 0 1 2 0.0 | 0 1 2 0.0 | 0 1 2 0.0 | 0 1 2 0.0
+0>1,1>2 | 3 2 1 1 1 1 | 1 3 6 0.0 | 1 3 6 0.0 | 1 5 19 0.0 | 1 5 19 0.0
+0>1,0>2,1>2 | 3 3 1 2 1 2 | 2 21 71 0.0 | 2 41 71 0.0 | 2 72 394 0.2 | 2 107 394 0.2
+0>1,1>2,2>1 | 3 3 0 1 1 - | 1 5 14 0.0 | 1 5 14 0.0 | 1 8 34 0.0 | 1 8 34 0.0
+0>1,0>2,1>2,2>1 | 3 4 0 2 1 - | 3 60 353 0.2 | 3 134 353 0.2 | 3 152 1264 0.7 | 3 258 1293 0.7

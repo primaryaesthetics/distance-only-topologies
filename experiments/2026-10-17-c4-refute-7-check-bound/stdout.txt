@@ -1,0 +1,4 @@
+# 0>1,0>2,0>3,0>4,1>2,2>3,3>4,4>1  budget 7 refuted: the program cannot win within 7 moves from the start
+states 27730 (distinct 27730)  leaves 27139  inner 591  points 62631  moves checked 58513  automorphisms 4  pass one 18.4s  pass two 5.7s
+file sha256 14f4f78cadebb8e812d2729cd80220763d98dba1e50632b6e79dd3e855379e4b
+text sha256 f6c0af3e72fffbb2006bc41122bfca33d08e4814d5f840436483951198eaaf19  text bytes 7434126

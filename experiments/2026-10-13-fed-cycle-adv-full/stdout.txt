@@ -1,0 +1,16 @@
+# --k=2,3,4 --adversary=full --symmetry --out-edge-bound --cap=8
+# k=2 budget 2 loses  nodes 16 tt 2 lps 51 (0.0s)
+# k=2 budget 3 wins  nodes 65 tt 9 lps 147 (0.0s)
+# k=2 value 3  cap 8  forced loss 1  nodes 65  lps 147  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 69 tt 3 lps 349 (0.0s)
+# forced loss 2: compare b3 ? b2+c2 after b1 > b2
+# k=3 budget 5 loses  nodes 4440 tt 197 lps 10516 (0.3s)
+# k=3 budget 6 wins  nodes 24082 tt 1095 lps 45657 (1.6s)
+# k=3 value 6  cap 8  forced loss 2  nodes 24082  lps 45657  tt clears 0  1.9s
+# forced loss 2: compare b2 ? b4 after b1 > b2
+# forced loss 3: compare b2 ? b3 after b1 > b3
+# k=4 budget 6 loses  nodes 267 tt 6 lps 2110 (0.1s)
+# forced loss 4: compare b3 ? b2+c2 after b1 > b2
+# k=4 budget 7 loses  nodes 69290 tt 1609 lps 190478 (11.6s)
+# k=4 budget 8 loses  nodes 10363125 tt 241355 lps 19106227 (1288.8s)
+# k=4 value none  cap 8  forced loss 4  nodes 10363125  lps 19106227  tt clears 0  1300.4s

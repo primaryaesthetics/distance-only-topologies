@@ -1,0 +1,9 @@
+# 0>1,0>2,1>2,2>1  budget 2 refuted: the program cannot win within 2 moves from the start
+states 26 (distinct 26)  leaves 24  inner 2  points 39  moves checked 50  automorphisms 2  pass one 0.0s  pass two 0.0s
+file sha256 b29403508246b75262b3740315aba182462bfbabbad1966de002c401bf4ac535
+text sha256 b29403508246b75262b3740315aba182462bfbabbad1966de002c401bf4ac535  text bytes 2124
+self-test drop-entry: rejected (a comparison left unanswered)
+self-test move-point: rejected (a point outside its cone)
+self-test lower-chain: rejected (a wrong addition count)
+self-test drop-state: rejected (an addition left unanswered)
+self-test raise-budget: rejected (a leaf the cell bound does not refute)

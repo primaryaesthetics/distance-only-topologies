@@ -1,0 +1,14 @@
+# --k=2,3,4 --adversary=thick --ties=fixed
+# k=2 budget 2 loses  nodes 27 tt 3 lps 79 (0.0s)
+# k=2 budget 3 wins  nodes 39 tt 5 lps 127 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  nodes 39  lps 127  tt clears 0  0.0s
+# k=3 budget 4 loses  nodes 604 tt 22 lps 1259 (0.0s)
+# k=3 budget 5 loses  nodes 19063 tt 652 lps 31199 (0.1s)
+# k=3 budget 6 wins  nodes 20055 tt 693 lps 33909 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  nodes 20055  lps 33909  tt clears 0  0.1s
+# forced loss 2: compare b1 ? b3 after nothing
+# k=4 budget 5 loses  nodes 1501 tt 27 lps 2641 (0.0s)
+# k=4 budget 6 loses  nodes 95392 tt 1619 lps 126886 (0.5s)
+# k=4 budget 7 loses  nodes 3423139 tt 54788 lps 3764631 (22.1s)
+# k=4 budget 8 wins  nodes 9125749 tt 148359 lps 10746131 (53.9s)
+# k=4 value 8  cap 30  forced loss 2  nodes 9125749  lps 10746131  tt clears 0  76.4s

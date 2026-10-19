@@ -1,0 +1,18 @@
+{
+  "slug": "opt-dist-rust-validate",
+  "command": [
+    "./target/release/unsorted-game.exe",
+    "validate"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-10T16:09:51.440914+00:00",
+  "finished_utc": "2026-10-10T16:11:44.099764+00:00",
+  "git_sha": "37656ed3fec7cf42ee3ff0c5b4df59abd245cd8f",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "0a65887578f9178a6455cb53141a785b77fb26c664799be1c77e1863035e2a36"
+}

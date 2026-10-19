@@ -1,0 +1,21 @@
+{
+  "slug": "fed-cycle-cells",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/cells_fed_cycle.py",
+    "7",
+    "20000",
+    "1"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-11T01:49:48.198922+00:00",
+  "finished_utc": "2026-10-11T01:49:53.874060+00:00",
+  "git_sha": "11549f70fcc0ecdce643ed0c4a2d905ab5c5c451",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "839b0172de83379f5a7e1c2502bad7f48567ed258fc31ef57df1d67c2ab7d4a7"
+}

@@ -1,0 +1,4 @@
+progress 600s  nodes 5526528  lp 18426130  cones built 9714781  cache (1602152, 5403717, 0, 137, 11)
+progress 1200s  nodes 10571776  lp 34597445  cones built 19498658  cache (1226393, 10244440, 0, 137, 22)
+progress 1800s  nodes 15911936  lp 51851822  cones built 29971506  cache (1519684, 6013347, 0, 137, 35)
+progress 2400s  nodes 20702208  lp 69489222  cones built 39955998  cache (1405724, 6643978, 0, 137, 47)

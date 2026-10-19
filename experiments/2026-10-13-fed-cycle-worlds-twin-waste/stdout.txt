@@ -1,0 +1,37 @@
+# --k=3,4 --adversary=points --worlds=twin --out-edge-bound --waste-check
+# k=3: 12 points
+# k=3 budget 4 loses  nodes 94 tt 4 lps 57 (0.0s)
+# violation: compare b3 ? b2+c2 after [b1 > b2] holding [b2+c2]
+# violation: compare b1 ? b3+c3 after [b2 > b3] holding [b3+c3]
+# violation: compare b2 ? b1+c1 after [b3 > b1+c1] holding [b1+c1]
+# violation: compare b3 ? b2+c2 after [b1 > b2+c2] holding [b2+c2]
+# violation: compare b1 ? b3+c3 after [b2 > b3+c3] holding [b3+c3]
+# k=3 budget 5 loses  nodes 5087 tt 206 lps 2735 (0.0s)
+# k=3 budget 6 wins  nodes 7927 tt 332 lps 4276 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  violations 5  nodes 7927  lps 4276  tt clears 0  0.1s
+# k=4: 48 points
+# k=4 budget 6 loses  nodes 845 tt 19 lps 516 (0.0s)
+# violation: compare b3 ? b2+c2 after [b1 > b2 ; b4 > b2] holding [b2+c2]
+# violation: compare b3 ? b2+c2 after [b1 > b2 ; b4 > b3] holding [b2+c2]
+# violation: compare b3 ? b2+c2 after [b1 > b2] holding [b2+c2]
+# violation: compare b3 ? b2+c2 after [b1 > b2 ; b4 > b2+c2] holding [b2+c2]
+# violation: compare b3 ? b2+c2 after [b1 > b2 ; b4 > b3+c3] holding [b2+c2, b3+c3]
+# violation: compare b4 ? b3+c3 after [b1 > b3 ; b2 > b3] holding [b3+c3]
+# violation: compare b4 ? b3+c3 after [b1 > b3 ; b2 > b4] holding [b3+c3]
+# violation: compare b3 ? b2+c2 after [b1 > b3 ; b4 > b2+c2] holding [b2+c2]
+# violation: compare b4 ? b3+c3 after [b1 > b3 ; b2 > b3+c3] holding [b3+c3]
+# violation: compare b4 ? b3+c3 after [b2 > b3 ; b1 > b4] holding [b3+c3]
+# violation: compare b3 ? b2+c2 after [b1 > b4 ; b4 > b2+c2] holding [b2+c2]
+# violation: compare b4 ? b3+c3 after [b1 > b4 ; b2 > b3+c3] holding [b3+c3]
+# violation: compare b4 ? b3+c3 after [b2 > b3 ; b1 > b3+c3] holding [b3+c3]
+# violation: compare b4 ? b3+c3 after [b2 > b3] holding [b3+c3]
+# violation: compare b4 ? b3+c3 after [b2 > b3 ; b1 > b4+c4] holding [b3+c3, b4+c4]
+# violation: compare b1 ? b4+c4 after [b2 > b4 ; b3 > b4] holding [b4+c4]
+# violation: compare b4 ? b3+c3 after [b2 > b4 ; b1 > b3+c3] holding [b3+c3]
+# violation: compare b1 ? b4+c4 after [b2 > b4 ; b3 > b4+c4] holding [b4+c4]
+# violation: compare b1 ? b4+c4 after [b2 > b1 ; b3 > b4] holding [b4+c4]
+# violation: compare b1 ? b4+c4 after [b3 > b4 ; b2 > b1+c1] holding [b1+c1, b4+c4]
+# k=4 budget 7 loses  nodes 99941 tt 2076 lps 50225 (1.0s)
+# k=4 budget 8 loses  nodes 6849715 tt 131822 lps 2495517 (62.8s)
+# k=4 budget 9 wins  nodes 7334648 tt 140726 lps 2608098 (5.3s)
+# k=4 value 9  cap 30  forced loss 1  violations 496  nodes 7334648  lps 2608098  tt clears 0  69.1s

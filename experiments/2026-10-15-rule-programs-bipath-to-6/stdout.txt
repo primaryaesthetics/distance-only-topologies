@@ -1,0 +1,5 @@
+k | n m | 4k-4 | two-sweep | four-rule | four-rule leaves seconds | flags
+3 | 4 7 | 8 | 8 | 7 | 22 0.2 | 
+4 | 5 10 | 12 | 12 | 12 | 134 3.4 | 
+5 | 6 13 | 16 | 16 | 18 | 986 30.8 | four-rule-ABOVE-TWO-SWEEP
+6 | 7 16 | 20 | 20 | 25 | 8558 340.0 | four-rule-ABOVE-TWO-SWEEP

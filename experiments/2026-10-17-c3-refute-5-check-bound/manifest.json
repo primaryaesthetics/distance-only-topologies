@@ -1,0 +1,28 @@
+{
+  "slug": "c3-refute-5-check-bound",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/check_refutation.py",
+    "experiments/2026-10-17-c3-refute-5-certificate/certificate.txt",
+    "--expect-arcs",
+    "0>1,0>2,0>3,1>2,2>3,3>1",
+    "--expect-budget",
+    "5"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-17T14:30:52.384541+00:00",
+  "finished_utc": "2026-10-17T14:30:53.963406+00:00",
+  "git_sha": "848063c8ac0a0911b0e9fa13aae604f60d4c582a",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "ad65726f1f0a7a610b998631e09b2057b93638177d9cef897f2d1f4bfc66e2ca",
+  "code_sha256": {
+    "scripts/check_refutation.py": "1697f77f6c381d6d73cfbf15283e971fafa808966c9c9d67d0ac1f2a6540904b"
+  },
+  "code_digest": "1ac57e783e27bae1a426c46947ecc8505683a4c4eb1354d9f3fa24bf4adc2abb",
+  "code_crlf": []
+}

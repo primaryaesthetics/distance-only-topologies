@@ -1,0 +1,22 @@
+{
+  "slug": "contract-lemma-n5-m6",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/check_contract_lemma.py",
+    "5",
+    "6",
+    "generic",
+    "300"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-11T01:51:27.102625+00:00",
+  "finished_utc": "2026-10-11T01:52:36.250687+00:00",
+  "git_sha": "11549f70fcc0ecdce643ed0c4a2d905ab5c5c451",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "916639c2b21a3ae09e7c988316824d7d352a832bd63c65d36e3e4212cc311d62"
+}

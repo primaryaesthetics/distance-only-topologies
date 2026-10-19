@@ -1,0 +1,25 @@
+{
+  "slug": "rule-programs-seven-rule-n6",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/rule_programs.py",
+    "--table",
+    "experiments/2026-10-16-n6-cyclic-random-chunk00//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk01//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk02//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk03//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk04//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk05//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk06//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk07//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk08//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk09//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk10//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk11//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk12//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk13//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk14//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk15//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk16//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk17//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk18//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk19//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk20//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk21//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk22//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk23//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk24//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk25//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk26//stdout.txt,experiments/2026-10-16-n6-cyclic-random-chunk27//stdout.txt,experiments/2026-10-17-n6-cyclic-random-chunk28//stdout.txt,experiments/2026-10-17-n6-cyclic-random-chunk29//stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-16T23:17:27.377886+00:00",
+  "finished_utc": "2026-10-16T23:26:02.987129+00:00",
+  "git_sha": "cc0cf153ea4fda61bec6c510478d915c60621fdf",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "21a5726389bc797cc5b73951d46b228a8751249c62c52bf7681f6b6264e88606",
+  "code_sha256": {
+    "theory/game/rule_programs.py": "e47591b705289b8e26be0bbc1ce6fea45b45201f792d56213271b794a336eca5"
+  },
+  "code_digest": "179a07b4c13648d7ec27d2ed38d9fa2b0c185b156ee332d02d7c74159607a683",
+  "code_crlf": []
+}

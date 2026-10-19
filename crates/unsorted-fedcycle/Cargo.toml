@@ -1,0 +1,11 @@
+[package]
+name = "unsorted-fedcycle"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Plays the fed cycle's strict path-register game exactly against adversaries restricted to subsets of the strict adversary's answers."
+
+[dependencies]

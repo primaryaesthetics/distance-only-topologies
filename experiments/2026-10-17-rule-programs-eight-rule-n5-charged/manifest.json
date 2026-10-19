@@ -1,0 +1,28 @@
+{
+  "slug": "rule-programs-eight-rule-n5-charged",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/rule_programs.py",
+    "--eight-rule",
+    "--charge-decided",
+    "--jobs",
+    "3",
+    "--n5"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-17T03:02:40.665643+00:00",
+  "finished_utc": "2026-10-17T03:02:59.542783+00:00",
+  "git_sha": "77b31f87e73a96b10c2a85aaba3a78b58e8dd16d",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "8298e78d935eee9492babf0be4cb3de2391aa5547982339f1d94686fbded9ab5",
+  "code_sha256": {
+    "theory/game/rule_programs.py": "9677fe8d67c19a9fa1a29824e3cffb9d0a89424930dedf217ca33757eb73b2a2"
+  },
+  "code_digest": "823d6a6fdcb4965d554eb552936645c1962c06d2b0252c7570a5ea8f076fc0fa",
+  "code_crlf": []
+}

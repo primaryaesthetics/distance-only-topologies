@@ -1,0 +1,22 @@
+# n 5, m 8..11, 400 draws, seed 1
+arcs | n m | four-rule five-rule | flags
+0>1,0>2,1>2,2>1,2>3,2>4,3>1,3>4,4>1,4>3 | 5 10 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,1>3,1>4,2>1,3>1,3>4,4>1,4>2,4>3 | 5 10 | 9 8 | five-rule-BELOW-FOUR-RULE
+0>3,0>4,1>2,2>1,2>3,2>4,3>1,3>2,3>4,4>3 | 5 10 | 11 10 | five-rule-BELOW-FOUR-RULE
+0>2,0>3,0>4,1>2,2>1,2>3,2>4,3>1,3>4,4>1,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,1>2,1>3,1>4,2>1,3>2,3>4,4>2,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>4,1>4,2>1,2>3,3>2,4>2,4>3 | 5 9 | 11 10 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>4,1>2,1>3,1>4,2>1,2>3,2>4,3>1,4>2 | 5 11 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,1>2,1>3,1>4,2>3,2>4,3>1,4>2,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+0>1,0>3,1>2,1>3,1>4,2>3,2>4,3>1,4>1,4>2,4>3 | 5 11 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>2,0>3,0>4,1>2,1>3,1>4,2>3,3>1,3>2,3>4,4>1 | 5 11 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>2,0>4,1>3,1>4,2>1,2>3,3>2,4>1 | 5 8 | 9 8 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,0>4,1>2,2>1,2>4,3>1,3>2,3>4,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+0>1,0>3,0>4,1>3,2>3,2>4,3>1,3>2,3>4,4>1,4>2 | 5 11 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>2,0>3,1>2,1>3,1>4,2>3,3>1,3>4,4>1,4>2,4>3 | 5 11 | 11 10 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,1>3,1>4,2>1,3>2,3>4,4>3 | 5 9 | 11 10 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,0>4,1>4,2>1,2>3,3>2,4>1,4>2,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+0>1,0>4,1>2,1>3,1>4,2>3,2>4,3>1,4>2 | 5 9 | 11 10 | five-rule-BELOW-FOUR-RULE
+0>1,0>4,1>2,1>3,1>4,2>1,2>3,2>4,3>1,4>2,4>3 | 5 11 | 13 12 | five-rule-BELOW-FOUR-RULE
+0>1,0>2,0>3,0>4,1>4,2>1,2>3,3>1,3>2,4>2,4>3 | 5 11 | 15 14 | five-rule-BELOW-FOUR-RULE
+# rows 397, five-rule excludes 48, five-rule below 19, five-rule above 0, wrong 0, fallback 0

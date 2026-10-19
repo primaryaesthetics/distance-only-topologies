@@ -1,0 +1,26 @@
+{
+  "slug": "opt-dist-plot-m6",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "scripts/plot_opt_dist.py",
+    "experiments/2026-09-09-opt-dist-plot-m6/opt_dist.png",
+    "experiments/2026-09-09-opt-dist-n3/stdout.txt",
+    "experiments/2026-09-09-opt-dist-n4-m4-pathfull/stdout.txt",
+    "experiments/2026-09-09-opt-dist-n4-m5/stdout.txt",
+    "experiments/2026-09-09-opt-dist-n4-m5-pathfull/stdout.txt",
+    "experiments/2026-09-09-opt-dist-n4-m6-path/stdout.txt",
+    "experiments/2026-09-09-opt-dist-n4-m6-path-long/stdout.txt",
+    "experiments/2026-09-09-opt-dist-fed-three-cycle/stdout.txt"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-09-09T18:35:11.992541+00:00",
+  "finished_utc": "2026-09-09T18:35:13.957763+00:00",
+  "git_sha": "906ee5b75f418088dd4311399866c2520dc4a495",
+  "git_dirty": true,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "c740478684b04452a757af4faacf4312e6f4bdc3217efe585b667cfb19848361"
+}

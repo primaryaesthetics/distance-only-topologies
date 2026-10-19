@@ -1,0 +1,1 @@
+# 0>1,1>2,1>3,1>4,3>2,3>5,4>5,5>2,5>4  mode path  value >=10  corner 11  nodes 584577024  states 4849373  cones 872530243  lp 1123361348  dropped 1465  14400.0s

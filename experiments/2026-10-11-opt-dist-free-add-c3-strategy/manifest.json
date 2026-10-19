@@ -1,0 +1,21 @@
+{
+  "slug": "opt-dist-free-add-c3-strategy",
+  "command": [
+    "./target/release/unsorted-game.exe",
+    "solve",
+    "0>1,0>2,0>3,1>2,2>3,3>1",
+    "--mode=path-free",
+    "--strategy"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-11T03:52:50.153860+00:00",
+  "finished_utc": "2026-10-11T03:52:50.430879+00:00",
+  "git_sha": "f600e88deb408dea33c67724747d825bde08effd",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "0b25c301a9d1db9646cf83e850010476b8580ce09e653f9445f9e9cf118963db"
+}

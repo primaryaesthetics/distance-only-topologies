@@ -1,0 +1,24 @@
+{
+  "slug": "opt-dist-n4-m4-pathfull",
+  "command": [
+    "C:/Users/Administrator/.virtualenvs/7971-Aj5hZqMl/Scripts/python.exe",
+    "theory/game/opt_dist.py",
+    "enumerate",
+    "4",
+    "4",
+    "600",
+    "--modes=pathfull",
+    "--m=4"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-09-09T16:52:46.618499+00:00",
+  "finished_utc": "2026-09-09T16:52:57.144076+00:00",
+  "git_sha": "e88cd08b12da1f645e003f2f8aeae633fb16c9fa",
+  "git_dirty": true,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "9bfd5c59dc13aea54b63fe438b6dc5fc765dfabe03277a8f0a00577d8a05224d"
+}

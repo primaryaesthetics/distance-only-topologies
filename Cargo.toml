@@ -1,0 +1,27 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/unsorted-game",
+    "crates/unsorted-fedcycle",
+]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.85"
+authors = ["Nikolai Khobotov <nicholaask@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/primaryaesthetics/distance-only-topologies"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = 1
+
+# Benchmarks run in release; this profile keeps the assertions that guard the
+# invariants while staying representative of release code generation.
+[profile.checked]
+inherits = "release"
+debug-assertions = true
+overflow-checks = true

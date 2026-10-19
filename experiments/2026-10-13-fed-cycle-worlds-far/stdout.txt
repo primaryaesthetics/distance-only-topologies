@@ -1,0 +1,15 @@
+# --k=2,3,4 --adversary=points --worlds=far --out-edge-bound
+# k=2: 2 points
+# k=2 budget 2 loses  nodes 9 tt 1 lps 6 (0.0s)
+# k=2 budget 3 wins  nodes 32 tt 5 lps 34 (0.0s)
+# k=2 value 3  cap 30  forced loss 1  violations 0  nodes 32  lps 34  tt clears 0  0.0s
+# k=3: 6 points
+# k=3 budget 4 loses  nodes 94 tt 4 lps 53 (0.0s)
+# k=3 budget 5 loses  nodes 5244 tt 216 lps 2841 (0.0s)
+# k=3 budget 6 wins  nodes 5802 tt 250 lps 3288 (0.0s)
+# k=3 value 6  cap 30  forced loss 1  violations 0  nodes 5802  lps 3288  tt clears 0  0.0s
+# k=4: 24 points
+# k=4 budget 6 loses  nodes 797 tt 18 lps 434 (0.0s)
+# k=4 budget 7 loses  nodes 95961 tt 2022 lps 44630 (0.8s)
+# k=4 budget 8 wins  nodes 858051 tt 18082 lps 304112 (7.9s)
+# k=4 value 8  cap 30  forced loss 1  violations 0  nodes 858051  lps 304112  tt clears 0  8.8s

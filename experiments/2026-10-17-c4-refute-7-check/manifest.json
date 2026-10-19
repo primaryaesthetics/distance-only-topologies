@@ -1,0 +1,26 @@
+{
+  "slug": "c4-refute-7-check",
+  "command": [
+    "python",
+    "scripts/check_refutation.py",
+    "experiments/2026-10-17-c4-refute-7-certificate/certificate.txt.gz",
+    "--expect-budget",
+    "7"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-17T12:22:34.214014+00:00",
+  "finished_utc": "2026-10-17T12:22:54.338477+00:00",
+  "git_sha": "2f33d53a557ead2327e8f830bb2d8e1ec0d5e4cd",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "ee0b039259cfbed55b60a55127136803232f7f19f3b84512ba01fcc432f828a7",
+  "code_sha256": {
+    "scripts/check_refutation.py": "da95964dceffce4d970e8108d7bc1f80af1efd737887897ee78ba34c3c3d160c"
+  },
+  "code_digest": "5b786a48780ec049eb262125e133cc56d77765269cef28535372d3ff65262f8f",
+  "code_crlf": []
+}

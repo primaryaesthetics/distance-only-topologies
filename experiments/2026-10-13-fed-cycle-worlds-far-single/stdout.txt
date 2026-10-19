@@ -1,0 +1,6 @@
+# --k=4 --adversary=points --worlds=far:2,3,1 --out-edge-bound
+# k=4: 4 points
+# forced loss 2: compare b1 ? b2 after nothing
+# k=4 budget 6 loses  nodes 2889 tt 61 lps 1562 (0.0s)
+# k=4 budget 7 wins  nodes 23647 tt 478 lps 9323 (0.1s)
+# k=4 value 7  cap 30  forced loss 2  violations 0  nodes 23647  lps 9323  tt clears 0  0.1s
