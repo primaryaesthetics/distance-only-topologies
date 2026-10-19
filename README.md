@@ -4,6 +4,7 @@ Code, recorded runs and claim ledger for the paper
 
 > **Exact Distance-Only Complexity of Small Topologies**
 > Nikolai Khobotov ([ORCID 0009-0005-3612-830X](https://orcid.org/0009-0005-3612-830X))
+> Archived on Zenodo: [10.5281/zenodo.23482631](https://doi.org/10.5281/zenodo.23482631) (all versions; v1.0.0 is [10.5281/zenodo.23482632](https://doi.org/10.5281/zenodo.23482632))
 
 ## What the paper is about
 

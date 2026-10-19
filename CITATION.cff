@@ -8,6 +8,15 @@ authors:
     orcid: "https://orcid.org/0009-0005-3612-830X"
     email: nicholaask@gmail.com
 version: 1.0.0
+doi: 10.5281/zenodo.23482631
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23482631
+    description: "Concept DOI for all versions; resolves to the latest."
+  - type: doi
+    value: 10.5281/zenodo.23482632
+    description: "Version 1.0.0."
+date-released: 2026-10-19
 url: "https://github.com/primaryaesthetics/distance-only-topologies"
 repository-code: "https://github.com/primaryaesthetics/distance-only-topologies"
 license: MIT
