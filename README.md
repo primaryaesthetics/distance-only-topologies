@@ -35,8 +35,8 @@ to these values, and how that program behaves at scale.
 | `ref/rule_programs/scale_probe.py` | the four-rule program on concrete weights, checked against a binary-heap Dijkstra |
 | `scripts/` | the lemma and certificate checkers named in the paper, the plotting and census scripts of the recorded runs, and the two repository gates |
 | `data/certificates/` | the `0/1` point sets of `C_5` and `C_6` |
-| `experiments/` | 299 recorded runs, one directory each: `manifest.json`, `stdout.txt`, `stderr.txt`, and any figure the run wrote |
-| `docs/ledger/CLAIMS.md` | 221 claims, each pointing to the run that records it |
+| `experiments/` | 302 recorded runs, one directory each: `manifest.json`, `stdout.txt`, `stderr.txt`, and any figure the run wrote |
+| `docs/ledger/CLAIMS.md` | 222 claims, each pointing to the run that records it |
 | `docs/rules-supplement.pdf` | the supplement on the further local rules, with a map from the paper's rule and program names to those of `rule_programs.py` and the ledger |
 
 ## Building the Rust players
