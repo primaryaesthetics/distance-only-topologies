@@ -1,0 +1,28 @@
+{
+  "slug": "h2-refute-6-check-bound",
+  "command": [
+    "python",
+    "scripts/check_refutation.py",
+    "experiments/2026-10-21-h2-refute-6-certificate/certificate.txt.gz",
+    "--expect-arcs",
+    "0>1,0>2,0>3,1>2,1>3,2>1,3>1",
+    "--expect-budget",
+    "6"
+  ],
+  "exit_code": 0,
+  "started_utc": "2026-10-21T12:55:36.399470+00:00",
+  "finished_utc": "2026-10-21T12:56:04.886547+00:00",
+  "git_sha": "b098bb9f1314a579f64c859087949bf40c3f7171",
+  "git_dirty": false,
+  "host": "WIN-612LDG3827A",
+  "os": "Windows 11",
+  "cpu": "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz",
+  "python": "3.12.1",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "corpus_sha256": "c6d44c61e7aee288e1e8de7da1296b72a7259a7c142092f34f5b67e2151bb5f3",
+  "code_sha256": {
+    "scripts/check_refutation.py": "6e29b708fe62376d1687c290268a62b0a1308a21ee53189f4e3cfd20364b660b"
+  },
+  "code_digest": "7bd219fd368fd89c8ba2574b27ab807a1c39ee81d3a6966eebead5ab256c1b60",
+  "code_crlf": []
+}

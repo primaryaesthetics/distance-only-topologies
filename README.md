@@ -93,6 +93,15 @@ python theory/game/rule_programs.py --eight-rule --charge-decided \
        --bipath 3,4,5,6
 ```
 
+The refutation certificate behind `OPT_DIST(H_2) = 7` (C-385) is stored and
+checks in under a minute:
+
+```sh
+python scripts/check_refutation.py \
+       experiments/2026-10-21-h2-refute-6-certificate/certificate.txt.gz \
+       --expect-arcs '0>1,0>2,0>3,1>2,1>3,2>1,3>1' --expect-budget 6
+```
+
 ## Checking the record
 
 Every number in the paper names, in a comment of its source, the claim ID in
