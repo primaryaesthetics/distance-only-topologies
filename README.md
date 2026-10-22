@@ -6,6 +6,8 @@ Code, recorded runs and claim ledger for the paper
 > Nikolai Khobotov ([ORCID 0009-0005-3612-830X](https://orcid.org/0009-0005-3612-830X))
 > Archived on Zenodo: [10.5281/zenodo.23482631](https://doi.org/10.5281/zenodo.23482631) (all versions; v1.0.0 is [10.5281/zenodo.23482632](https://doi.org/10.5281/zenodo.23482632))
 
+The paper itself, with its rules supplement, is the Zenodo preprint [10.5281/zenodo.23483043](https://doi.org/10.5281/zenodo.23483043). A shorter account for a general technical reader is [on Medium](https://medium.com/@nicholaask/on-fed-cycles-up-to-five-vertices-dijkstras-order-is-exactly-optimal-until-additions-are-free-b0e9e2a47fba).
+
 ## What the paper is about
 
 Cai (arXiv:2609.04825) defines `OPT_DIST(G, s)`: the least worst-case number
